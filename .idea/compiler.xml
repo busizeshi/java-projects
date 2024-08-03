@@ -5,6 +5,9 @@
       <directory url="file://$PROJECT_DIR$/stock_parent/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/stock_parent/stock_backend/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/stock_parent/stock_job/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/algorithm/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/java-base/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/TetsLocal/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -13,8 +16,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="stock_backend" />
+        <module name="java-base" />
+        <module name="TetsLocal" />
         <module name="stock_common" />
         <module name="stock_job" />
+        <module name="algorithm" />
       </profile>
     </annotationProcessing>
   </component>
